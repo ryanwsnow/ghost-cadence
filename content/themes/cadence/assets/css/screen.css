@@ -646,9 +646,9 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay a:hover {
-    color: #222;
+    color: #fff;
     border-color: #fff;
-    background: #fff;
+   /* background: #fff;*/
     transition: all 0.1s ease;
 }
 
@@ -1740,6 +1740,22 @@ body:not(.post-template) .post-title {
     font-family: 'Ek Mukta', sans-serif;
     color:#fff;
     max-width:70%;
+}
+
+.main-navi
+{
+    text-transform:uppercase;
+    font-size:14px;
+    list-style-type: none;
+    text-align:left;
+  
+
+}
+
+.main-navi > li
+{
+    display:inline-block;
+
 }
 
 /* ==========================================================================
